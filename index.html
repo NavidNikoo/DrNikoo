@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Nikoo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Dr. Farhad Nikoo</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#Education">Education</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="#Specialities">Specialities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Dr. Farhad Nikoo</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#Education" onclick="toggleMenu()">Education</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#Specialities" onclick="toggleMenu()">Specialities</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <h1 class="title">Dr. Farhad Nikoo</h1>
+        <p class="section__text__p2"> DNP, PMHNP-BC, FNP </p>
+        <div class="btn-container">
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section id="Education">
+      <p class="section__text__p1">Get To Know More About</p>
+      <h1 class="title">Dr. Nikoo</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>30+ years <br />DNP, PMHNP-BC, FNP</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>M.Sc Family Practice Nurse/Nursing<br />Doctor of Nursing Practice, <br />Post Doctorate Certificate, Psychiatric Mental Health</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Dr. Farhad Nikoo is dual board-certified as a Psychiatric, Mental Health, and Family Nurse Practitioner. 
+              He earned his Doctorate of Nursing Practice and a post-doctorate degree in Psychiatric and Mental Health from Brandman University, affiliated with Chapman University. 
+              Additionally, he graduated as a Family Nurse Practitioner from the University of Detroit Mercy. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    <!-- </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Specialities'" 
+      />
+    </section>  -->
+    <section id="Specialities">
+      <h1 class="title">Specialities</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Anxiety</h2>
+            <div class="text-container">
+              <p>
+                Anxiety disorders show features of fear, and behavioral disturbances. Where as fear is the emotional response to a perceived threat, anxiety is the anticipation of that perceived threat.
+              </p>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Depression</h2>
+            <div class="text-container">
+              <p>
+                Major Depression (MD): Common symptoms of MD may include a low mood, loss of interest or enjoyment, decreased sleep, decreased appetite changes, guilt or self-criticism, poor concentration and reduced energy.
+              </p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Personality Disorders</h2>
+            <div class="btn-container">
+              <p>
+                Personality disorders display enduring patterns of thinking and feeling about one’s self and others that significantly affects how an individual functions in various aspects of life.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p>
+          Dr. Nikoo boasts a comprehensive history of working across various healthcare settings, including emergency departments, intensive care units, family practices, psychiatric and mental health care, and addiction medicine. His experience spans both inpatient and outpatient psychiatric settings, covering areas such as addiction medicine, Crisis Stabilization Units, Intensive Outpatient Programs (IOP), and Partial Hospitalization Programs (PHP). 
+        </p>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Make an Appointment</p>
+      <h1 class="title">Contacts</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">info@allpsychgroup.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://allpsychgroup.com/">Alliance Psychiatric Group</a></p>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.1459638950632!2d-117.85810672403909!3d33.67928447329975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdef2c7634591%3A0x1cee53ccaebe4c7c!2s2082%20Business%20Center%20Dr%20Suite%20255%2C%20Irvine%2C%20CA%2092612!5e0!3m2!1sen!2sus!4v1719514308248!5m2!1sen!2sus"
+          width="400"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p class="address-text">Address: 2082 Business Center Dr Suite 255, Irvine, CA 92612</p>
+        <p class="phone-text">Text or Call 714-769-6090 to Set Up An Appointment!</p>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#Education">Education</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#Specialities">Specialities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
